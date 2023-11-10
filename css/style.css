@@ -1,119 +1,101 @@
 :root{
     font-size: 62.5%;
+    --colorB:#141024;
+    --colorW:#FFF;
+    --colorR:#D52027;
+}
+body{
+    font-family: Jost, sans-serif;
+    font-style: normal, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .osnW{
-    color: #FFF;
-   
-    font-family: Jost;
-    font-size: 16px;
-    font-style: normal;
+    color: var(--colorW);
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
 }
 .osnB{
-    color: #141024;
-    
-    font-family: Jost;
+    color: var(--colorB);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
 }
 .zagW{
-    color: #FFF;
+    color: var(--colorW);
     text-align: center;
-    font-family: Jost;
     font-size: 30px;
-    font-style: normal;
     font-weight: 600;
     line-height: 160%; /* 48px */
 }
 .zagB{
-    color: #141024;
+    color: var(--colorB);
 
-    font-family: Jost;
     font-size: 30px;
-    font-style: normal;
     font-weight: 600;
     line-height: 160%; /* 48px */
 }
 .hederTex{
-    color: #FFF;
-    font-family: Jost;
+    color:var(--colorW);
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 160%; /* 28.8px */
 }
 .zagPod{
-    color: #141024;
-    font-family: Jost;
+    color:var(--colorB);
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     line-height: 160%;
 }
 .zagPodm{
-    color: #141024;
-    font-family: Jost;
+    color: var(--colorB);
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 160%;
 }
 .textRB{
-    color: #D52027;
+    color:var(--colorR);
     
-    font-family: Jost;
     font-size: 60px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 .pakText{
-    color: #141024;
+    color: var(--colorB);
     
-    font-family: Jost;
     font-size: 30px;
-    font-style: normal;
     font-weight: 600;
     line-height: 160%; /* 48px */
 }
 .pakCen{
-    color: #141024;
+    color: var(--colorB);
     
-    font-family: Jost;
     font-size: 50px;
-    font-style: normal;
     font-weight: 600;
     line-height: 160%; /* 80px */
 }
 .futText{
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
-    font-family: Jost;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 22.4px */
 }
 .mText{
     color: rgba(20, 16, 36, 0.70);
-    font-family: Jost;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 22.4px */
 }
 .fonB{
-    background: #141024;
+    background:var(--colorB);
 }
 .fonG{
     background: #F9F9F9;
 }
 .fonR{
-    background: #D52027;
+    background:var(--colorR);
 }
 .fonW{
-    background: #FFF;
+    background:var(--colorW);
 }

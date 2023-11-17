@@ -11,12 +11,14 @@ body{
 }
 .osnW{
     color: var(--colorW);
+    text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
 }
 .osnB{
     color: var(--colorB);
+    text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
@@ -30,7 +32,7 @@ body{
 }
 .zagB{
     color: var(--colorB);
-
+    text-align: center;
     font-size: 3rem;
     font-weight: 600;
     line-height: 160%; /* 48px */
@@ -43,6 +45,7 @@ body{
 }
 .zagPod{
     color:var(--colorB);
+
     font-size: 2rem;
     font-weight: 600;
     line-height: 160%;
@@ -55,21 +58,21 @@ body{
 }
 .textRB{
     color:var(--colorR);
-    
+    text-align: center;
     font-size: 6rem;
     font-weight: 600;
     line-height: normal;
 }
 .pakText{
     color: var(--colorB);
-    
+    text-align: center;
     font-size: 3rem;
     font-weight: 600;
     line-height: 160%; /* 48px */
 }
 .pakCen{
     color: var(--colorB);
-    
+    text-align: center;
     font-size: 5rem;
     font-weight: 600;
     line-height: 160%; /* 80px */
@@ -104,4 +107,18 @@ body{
 }
 .fonW{
     background:var(--colorW);
+}
+.obvodCen{
+    width: 30rem;
+    height: 39,4rem;
+    flex-shrink: 0;
+    border: 0,1rem solid rgba(20, 16, 36, 0.20);
+    border-radius: 2rem;
+}
+.obvodPick{
+    border-radius: 2rem;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
+}
+.podCherk{
+    text-decoration:underline
 }

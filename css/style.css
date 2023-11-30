@@ -8,7 +8,6 @@
     --color3:rgba(40, 41, 68, 0.70);
     --color4:rgba(20, 16, 36, 0.20);
 }
-*{box-sizing: border-box;}
 body{
     font-family: Jost, sans-serif;
     font-style: normal;
@@ -143,9 +142,14 @@ body{
 }
 .parentB{
     background-color:var(--colorB);
-    width: 30rem;
     height: 6rem;
+    margin: auto 1rem  4rem;
     padding:1.9rem 9rem 1.8rem;
+    display: flex;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
 }
 .parentR{
@@ -153,31 +157,44 @@ body{
     width: 15.2rem;
     height: 1rem;
     padding:2.5rem 5.4rem;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
 }
 .parentW{
     background-color:var(--colorW);
-    width: 30rem;
     height: 6rem;
-    padding:1.9rem 9rem 1.8rem;
+    margin: auto 1rem auto;
     box-sizing: border-box;
 }
 .parentRB{
     background-color:var(--colorR);
-    width: 19.2rem;
-    height: 1rem;
     padding:2.5rem 5.4rem;
+    height: 1rem;;
     margin: auto 1rem  4rem;
+    border-radius: 0.5rem;
+    display: flex;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }
 .parent0{
     padding:0rem;
     list-style: none;
 }
-.textForm{
+.textFormB{
     color: var(--colorW);
     text-align: center;
     font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    box-sizing: border-box;
+}
+.textForm{
+    color: var(--color3);
+    text-align: center;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: normal;
     box-sizing: border-box;
@@ -194,6 +211,8 @@ body{
     width: 32rem;
     flex-shrink: 0;
     padding:0.5rem;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
 }
 .List_2{
@@ -217,6 +236,8 @@ body{
     width: 32rem;
     flex-shrink: 0;
     padding:0.5rem, auto;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
 }
 .List_footer{
@@ -225,4 +246,12 @@ body{
     box-sizing: border-box;
 }.heder_razm{
     width: 32rem;
+    margin: 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.pos{
+    display: block;
 }

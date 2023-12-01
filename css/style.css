@@ -253,5 +253,5 @@ body{
     flex-direction: column;
 }
 .pos{
-    display: block;
+    margin: auto 1rem;
 }

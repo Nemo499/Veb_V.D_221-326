@@ -7,6 +7,9 @@
     --color2:rgba(20, 16, 36, 0.70);
     --color3:rgba(40, 41, 68, 0.70);
     --color4:rgba(20, 16, 36, 0.20);
+    --color5:rgba(255, 255, 255, 0.08);
+    --colorOr: #ffa500;
+    --color6:#C4C4C4;
 }
 body{
     font-family: Jost, sans-serif;
@@ -25,7 +28,13 @@ body{
     color: var(--colorB);
     text-align: center;
     font-size: 1.6rem;
-    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    box-sizing: border-box;
+}
+.osnR{
+    color: var(--colorR);
+    text-align: center;
+    font-size: 1.6rem;
     line-height: 160%; /* 25.6px */
     box-sizing: border-box;
 }
@@ -130,10 +139,6 @@ body{
     margin: auto 1rem;
     box-sizing: border-box;
 }
-.obvodPick{
-    border-radius: 2rem;
-    background: url(), lightgray 50% / cover no-repeat, #C4C4C4;
-}
 .podCherk{
     text-decoration:none
 }
@@ -208,6 +213,7 @@ body{
     box-sizing: border-box;
 }
 .List_1{
+    background-image: url("img/Group 211 ob.png");
     width: 32rem;
     flex-shrink: 0;
     padding:0.5rem;
@@ -244,7 +250,8 @@ body{
     width: 32rem;
     padding:0.5rem;
     box-sizing: border-box;
-}.heder_razm{
+}
+.heder_razm{
     width: 32rem;
     margin: 0;
 }
@@ -253,5 +260,160 @@ body{
     flex-direction: column;
 }
 .pos{
+    display: block;
+    margin: 6rem 1rem auto;
+    background-image: linear-gradient(var(--colorR), var(--colorOr));
+}
+.botonColMen{
+    width: 4.4rem;
+    height:4.4rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--colorW);
+    opacity: 0.4;
+    background: var(--color5);
+}
+.marMenu{
+    margin: 1rem 1rem auto auto;
+}
+.pickL1{
+    width: 27.3rem;
+    height: 32rem;
+    flex-shrink: 0;
+    opacity: 0.999;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.pickL4{
+    width: 22rem;
+    height: 30.6rem;
+    flex-shrink: 0;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, var(--color6);
+}
+.parentL4{
+    display:flex;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.shadow{
+    box-shadow: 0rem, 0.1rem, 10rem, var(--colorW);
+}
+.parentL4_A{
+    width: 30rem;
+    height: 44rem;
+    flex-shrink: 0;
     margin: auto 1rem;
+    box-sizing: border-box;
+}
+.bp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto,auto,4rem;
+    box-sizing: border-box;
+}
+.pos2{
+    display: block;
+    margin: 4rem 1rem auto;
+}
+.contSt{
+    grid-template-columns: repeat(10, 1fr);
+    display: grid;
+}
+.heder_razm2{
+    margin: 0;
+}
+.List_footer2{
+    padding:0.5rem;
+    box-sizing: border-box;
+}
+.contA{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.contIMG1{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.contIMG2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.contIMG3{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.contIMG4{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.contIMG5{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.contIMG6{
+    grid-column-start:8;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.pickAMG1{
+    width: 0.005rem;
+   
+}
+.pickAMG2_4{
+    width: 0.001rem;
+   
+}
+.pickAMG5_6{
+    width: 0.002rem;
+    
+}
+.stA1{
+    padding: 3rem;
+    border: 0.1rem solid var(--colorOr);
+    grid-column-start:1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.stA2{
+    padding: 3rem;
+    border: 0.1rem solid var(--colorOr);
+    grid-column-start:1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.stA3{
+    padding: 3rem;
+    border: 0.1rem solid var(--colorOr);
+    grid-column-start:1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }

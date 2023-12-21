@@ -137,6 +137,7 @@ body{
     border: 0.1rem solid var(--color4);
     border-radius: 2rem;
     margin: auto 1rem;
+    margin-bottom: 3rem;
     box-sizing: border-box;
 }
 .podCherk{
@@ -168,9 +169,10 @@ body{
     box-sizing: border-box;
 }
 .parentW{
-    background-color:var(--colorW);
     height: 6rem;
     margin: auto 1rem auto;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--colorW);
     box-sizing: border-box;
 }
 .parentRB{
@@ -183,6 +185,7 @@ body{
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .parent0{
     padding:0rem;
@@ -225,18 +228,23 @@ body{
     width: 32rem;
     padding:0.5rem, auto;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 .List_3{
     width: 32rem;
     flex-shrink: 0;
-    padding:0.5rem, auto;
+    padding-top: 4rem;
+    padding-bottom: 5.2rem;
     box-sizing: border-box;
 } 
 .List_4{
     width: 32rem;
     flex-shrink: 0;
-    padding:0.5rem, auto;
     box-sizing: border-box;
+    margin: 4rem 0;
 }
 .List_5{
     width: 32rem;
@@ -249,15 +257,22 @@ body{
 .List_footer{
     width: 32rem;
     padding:0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     box-sizing: border-box;
 }
 .heder_razm{
     width: 32rem;
+    display: flex;
+    flex-direction: line;
     margin: 0;
 }
 .form{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .pos{
     display: block;
@@ -272,6 +287,7 @@ body{
     border: 0.1rem solid var(--colorW);
     opacity: 0.4;
     background: var(--color5);
+
 }
 .marMenu{
     margin: 1rem 1rem auto auto;
@@ -281,7 +297,6 @@ body{
     height: 32rem;
     flex-shrink: 0;
     opacity: 0.999;
-    z-index: 1;
     box-sizing: border-box;
 }
 .pickL4{
@@ -302,7 +317,7 @@ body{
     
 }
 .shadow{
-    box-shadow: 0rem, 0.1rem, 10rem, var(--colorW);
+    box-shadow: 0rem  0.1rem  10rem  var(--colorW);
 }
 .parentL4_A{
     width: 30rem;
@@ -316,12 +331,12 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: auto,auto,4rem;
+    margin: auto auto -2.5rem;
     box-sizing: border-box;
 }
 .pos2{
     display: block;
-    margin: 4rem 1rem auto;
+    margin: 0rem 1rem;
 }
 .contSt{
     grid-template-columns: repeat(10, 1fr);
@@ -376,11 +391,9 @@ body{
 }
 .pickAMG1{
     width: 0.005rem;
-   
 }
 .pickAMG2_4{
     width: 0.001rem;
-   
 }
 .pickAMG5_6{
     width: 0.002rem;
@@ -416,4 +429,11 @@ body{
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
+}
+.flex4{
+    display: flex;
+    flex-direction: line;
+}
+.sdvigHeder{
+    margin-right: 10rem;
 }

@@ -339,14 +339,23 @@ body{
     margin: 0rem 1rem;
 }
 .contSt{
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: 1fr 1fr;
     display: grid;
 }
+.contStP{
+    grid-template-columns: repeat(6, 1fr);
+}
 .heder_razm2{
+    display: flex;
+    flex-direction: line;
     margin: 0;
 }
 .List_footer2{
     padding:0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     box-sizing: border-box;
 }
 .contA{
@@ -354,40 +363,28 @@ body{
     grid-column-end: 3;
 }
 .contIMG1{
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 .contIMG2{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 .contIMG3{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 .contIMG4{
-    grid-column-start: 8;
-    grid-column-end: 9;
-    grid-row-start: 4;
-    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 6;
 }
 .contIMG5{
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 .contIMG6{
-    grid-column-start:8;
-    grid-column-end: 10;
-    grid-row-start: 5;
-    grid-row-end: 7;
+    grid-column-start:4;
+    grid-column-end: 6;
 }
 .pickAMG1{
     width: 0.005rem;
@@ -402,26 +399,14 @@ body{
 .stA1{
     padding: 3rem;
     border: 0.1rem solid var(--colorOr);
-    grid-column-start:1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
 .stA2{
     padding: 3rem;
     border: 0.1rem solid var(--colorOr);
-    grid-column-start:1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 4;
 }
 .stA3{
     padding: 3rem;
     border: 0.1rem solid var(--colorOr);
-    grid-column-start:1;
-    grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 6;
 }
 .wrapper {
     max-width: 1170px;

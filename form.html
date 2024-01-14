@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="RU">
+    <head>
+        <title>ROBO SCHOOL</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--инструкция для маштобирования-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <header class="fonB heder_razm2">
+            <a class="podCherk" href=""><span class="hederTex ">ROBO.SCHOOL</span></a>
+            <div class="pos_hed_but">
+                <a class="botonColMen flexhed"><img src="img/Call.svg" alt="" object-fit="contain" ><span class="sr-only">Вызов</span></a>
+                <button class="botonColMen flexhed"><img src="img/Group 313.svg" alt="" object-fit="contain"><span class="sr-only">открытие меню</span></button>
+            </div>
+        </header>
+        <main>
+            <h1 class="zagB">Заполните форму для регистрации</h1>
+            <form action="//httpbin.org/post" method="post" class="form">
+                <h2 class="zagB">Личные данные</р>
+                <p class="textForm">
+                    <label for="name" ></label>
+                    <input class="parentW_f" type="text" name="name" id="name" placeholder="Имя" required >
+                </p>
+                <p class="textForm">
+                    <label for="date" ></label>
+                    <input class="parentW_f" type="date" name="Data">
+                </p>
+                <fieldset class="fonR">
+                    <p class="zagW">Выберите пол</p>
+                    <div>
+                        <label class="radiob">
+                            <input  name="pol" type="radio" value="Man" checked=""> 
+                            <p lass="radiob" class="osnW">Мужской</p> 
+                        </label>
+                        <label class="radiob">
+                            <input  name="pol" type="radio" value="Woman"> 
+                            <p lass="radiob" class="osnW">Женский</p>  
+                        </label>
+                    </div>
+                </fieldset>
+                <p class="textForm">
+                    <label for="password" ></label>
+                    <input class="parentW_f" type="password" required="" placeholder="Пароль">
+                </p>
+                <h2 class="zagB">Контактные данные</h2>
+                <p class="textForm">
+                    <label for="tel" ></label>
+                    <input class="parentW_f" type="tel" name="tel" id="tel" placeholder="Телефон" required >
+                </p>
+                <p class="textForm">
+                    <label for="email" ></label>
+                    <input class="parentW_f" type="email" name="email" id="email" placeholder="E-mail" required >
+                </p>
+                <p class="osnB">Выберите удобно время для связи</p>
+                <div class="textForm">
+                    <select name="Tyme">
+                    <option value="M">Утро</option>
+                    <option value="D">День</option>
+                    <option value="E">Вечер</option>
+                    <option value="N">Ночь</option>
+                    </select>
+                </div>
+                <div >
+                <input type="submit" class="parentR_f textForm" ></input>
+                <input type="reset" class="parentR_f textForm" ></input>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="fonB List_footer2 fix">
+                <address>
+                    <p class="hederTex centrText">ROBO.SCHOOL</p>
+                    <a class="podCherk centrText" href="tel:+78000001122"><span class="osnW ">+7 800 000 11 22</span></a><!--поправить на белый-->
+                    <p class="futText">© ROBO.SCHOOL</p>
+                </address>
+            </div>
+        </footer>
+    </body>
+</html>
